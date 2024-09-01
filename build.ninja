@@ -1,0 +1,32 @@
+# Defina o compilador e linker
+cxx = clang++
+cxxflags = -I/usr/include -std=c++17
+ldflags = -L/usr/lib
+libs = -lsfml-graphics -lsfml-window -lsfml-system
+
+# Regra para compilar arquivos .cpp em .o
+rule compile
+  command = $cxx $cxxflags -c $in -o $out
+  description = Compiling $in
+
+# Regra para vincular os arquivos .o em um executável
+rule link
+  command = $cxx $ldflags $in -o $out $libs
+  description = Linking $out
+# Regra para limpeza
+rule clean
+  command = rm -f $in
+  description = Cleaning $in
+
+# Defina os arquivos de origem e objetos
+sources = src/main.cpp
+objects = main.o
+
+# Crie as regras para compilar os arquivos de origem
+build $objects: compile $sources
+
+# Crie a regra para vincular os arquivos objetos em um executável
+build SFML: link $objects
+
+# Regra padrão (executada se ninja for chamado sem argumentos)
+default SFML
