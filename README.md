@@ -1,4 +1,7 @@
 # RL Snake
+
+<img src="images/RLSnake.png">
+
 Simple Snake Game in C++ with SFML
 ## How to compile this project
 Clone this repository
