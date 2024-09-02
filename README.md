@@ -14,11 +14,11 @@ $ cd RLSnake
 ```
 **And run ninja to compile this game**
 ```bash
-$ ninja -j $(nproc)
+RLSnake$ ninja -j $(nproc)
 ```
 **Execute 'RLsnake'**
 ```bash
-$ ./RLSnake
+RLSnake$ ./RLSnake
 ```
 And enjoy :)
 # FAQ
