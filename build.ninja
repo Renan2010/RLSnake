@@ -20,11 +20,11 @@ rule clean
 sources = src/main.cpp
 objects = main.o
 
-# Crie as regras para compilar os arquivos de origem
+
 build $objects: compile $sources
 
-# Crie a regra para vincular os arquivos objetos em um executável
+
 build RLSnake: link $objects
 
-# Regra padrão (executada se ninja for chamado sem argumentos)
+
 default RLSnake
