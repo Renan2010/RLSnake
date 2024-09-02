@@ -24,7 +24,7 @@ And enjoy :)
 # FAQ
 What is **'$(nproc)'**
 
-'$(nproc)' is the total number of cores, plus the threads on your machine/PC, the more cores, the faster the compilation
+**'$(nproc)'** is the total number of cores, plus the threads on your machine/PC, the more cores, the faster the compilation
 
 For exanple:
 
