@@ -22,9 +22,9 @@ RLSnake$ ./RLSnake
 ```
 And enjoy :)
 # FAQ
-What is **'$(nproc)'**
+**What is `$(nproc)`?**
 
-**'$(nproc)'** is the total number of cores, plus the threads on your machine/PC, the more cores, the faster the compilation
+`$(nproc)` is the total number of cores, plus the threads on your machine/PC, the more cores, the faster the compilation
 
 For exanple:
 
@@ -38,4 +38,4 @@ Other example AMD ryzen 9 9950x 16C/32T
 $ nproc
 Output: 32
 ```
-in short, **'$(nproc)'** will take the cpu cores "automatically"
+in short, `$(nproc)` will take the cpu cores "automatically"
