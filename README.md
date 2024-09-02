@@ -22,7 +22,7 @@ RLSnake$ ./RLSnake
 ```
 And enjoy :)
 # FAQ
-what is **'$(nproc)'**
+What is **'$(nproc)'**
 
 '$(nproc)' is the total number of cores, plus the threads on your machine/PC, the more cores, the faster the compilation
 
