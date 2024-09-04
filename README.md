@@ -6,19 +6,19 @@ Simple Snake Game in C++ with SFML
 ## How to compile this game
 **Clone this repository**
 ```bash
-$ git clone https://github.com/Renan2010/RLSnake.git
+~ $ git clone https://github.com/Renan2010/RLSnake.git
 ```
 **Enter the directory**
 ```bash
-$ cd RLSnake
+~ $ cd RLSnake
 ```
 **And run ninja to compile this game**
 ```bash
-RLSnake$ ninja -j $(nproc)
+~/RLSnake $ ninja -j $(nproc)
 ```
 **Execute 'RLsnake'**
 ```bash
-RLSnake$ ./RLSnake
+~/RLSnake $ ./RLSnake
 ```
 And enjoy :)
 # FAQ
