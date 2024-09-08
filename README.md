@@ -8,7 +8,7 @@ Simple Snake Game in C++ with SFML
 ```bash
 ~ $ git clone https://github.com/Renan2010/RLSnake.git
 ```
-**Enter the directory**
+**Enter the 'RLSnake' directory**
 ```bash
 ~ $ cd RLSnake
 ```
