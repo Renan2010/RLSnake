@@ -1,8 +1,6 @@
 # RL Snake
-
-<img src="images/RLSnake.png">
-
-Simple Snake Game in C++ with SFML
+![RLSnake](https://github.com/user-attachments/assets/f0a3ff20-db74-40cc-b842-12fba1c93bb4)
+*Simple Snake Game in C++ with SFML*
 ## How to compile this game
 **Clone this repository**
 ```bash
@@ -28,14 +26,14 @@ And enjoy :)
 
 For exanple:
 
-My PC is an i5-2400 4C/4T
+*My PC is an i5-2400 4C/4T*
 ```bash
 $ nproc
 Output: 4
 ```
-Other example AMD ryzen 9 9950x 16C/32T `<- best CPU for multi-core`
+*Other example AMD ryzen 9 9950x 16C/32T* `<- best CPU for multi-core`
 ```bash
 $ nproc
 Output: 32
 ```
-in short, `$(nproc)` will take the cpu cores "automatically"
+*in short, `$(nproc)` will take the cpu cores "automatically"*
