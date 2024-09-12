@@ -23,9 +23,9 @@ And enjoy :)
 # FAQ
 **What is `$(nproc)`?**
 
-`$(nproc)` is the total number of cores, plus the threads on your machine/PC, the more cores, the faster the compilation
+*`$(nproc)` is the total number of cores, plus the threads on your machine/PC, the more cores, the faster the compilation*
 
-For exanple:
+**For exanple:**
 
 *My PC is an Intel Core i5-2400 4C/4T*
 ```bash
