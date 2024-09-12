@@ -1,4 +1,5 @@
 # RL Snake
+**photo of the game running**
 ![RLSnake](https://github.com/user-attachments/assets/f0a3ff20-db74-40cc-b842-12fba1c93bb4)
 *Simple Snake Game in C++ with SFML*
 ## How to compile this game
