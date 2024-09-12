@@ -28,12 +28,12 @@ For exanple:
 
 *My PC is an i5-2400 4C/4T*
 ```bash
-$ nproc
+~ $ nproc
 Output: 4
 ```
 *Other example AMD ryzen 9 9950x 16C/32T* `<- best CPU for multi-core`
 ```bash
-$ nproc
+~ $ nproc
 Output: 32
 ```
 *in short, `$(nproc)` will take the cpu cores "automatically"*
