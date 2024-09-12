@@ -26,12 +26,12 @@ And enjoy :)
 
 For exanple:
 
-*My PC is an i5-2400 4C/4T*
+*My PC is an Intel Core i5-2400 4C/4T*
 ```bash
 ~ $ nproc
 Output: 4
 ```
-*Other example AMD ryzen 9 9950x 16C/32T* `<- best CPU for multi-core`
+*Other example AMD Ryzen 9 9950x 16C/32T* `<- best CPU for multi-core`
 ```bash
 ~ $ nproc
 Output: 32
