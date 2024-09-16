@@ -20,7 +20,10 @@
 ~/RLSnake $ ./RLSnake
 ```
 # Controls
-*WASD*
+
+| Coluna 1 | Action   |
+|----------|----------|
+| W,A,S,D  |   Move   |
 
 And enjoy :)
 # FAQ
