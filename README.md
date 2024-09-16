@@ -19,6 +19,7 @@
 ```bash
 ~/RLSnake $ ./RLSnake
 ```
+# Controls
 And enjoy :)
 # FAQ
 **What is `$(nproc)`?**
