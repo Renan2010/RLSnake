@@ -21,7 +21,7 @@
 ```
 # Controls
 
-| Coluna 1 | Action   |
+| Button   | Action   |
 |----------|----------|
 | W,A,S,D  |   Move   |
 
