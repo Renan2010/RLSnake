@@ -20,6 +20,8 @@
 ~/RLSnake $ ./RLSnake
 ```
 # Controls
+*WASD*
+
 And enjoy :)
 # FAQ
 **What is `$(nproc)`?**
