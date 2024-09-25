@@ -4,17 +4,18 @@
 *Simple Snake Game in C++ with SFML*
 ## How to compile this game
 **Clone this repository**
+**using `git`**
 ```bash
 ~ $ git clone https://github.com/Renan2010/RLSnake.git
 ```
-**Or using 'github-cli'**
+**Or using `github-cli`**
 > [!Note]
-**To use 'github-cli' you need to allocate your github account, otherwise it won't work.**
+**To use `github-cli` you need to allocate your github account, otherwise it won't work.**
 ```bash
 ~ $ gh repo clone Renan2010/RLSnake
 ```
 
-**Enter the 'RLSnake' directory**
+**Enter the `RLSnake` directory**
 ```bash
 ~ $ cd RLSnake
 ```
@@ -22,7 +23,7 @@
 ```bash
 ~/RLSnake $ ninja -j $(nproc)
 ```
-**Execute 'RLsnake'**
+**Execute `RLsnake`**
 ```bash
 ~/RLSnake $ ./RLSnake
 ```
