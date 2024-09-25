@@ -7,6 +7,10 @@
 ```bash
 ~ $ git clone https://github.com/Renan2010/RLSnake.git
 ```
+**Or using github-cli**
+```bash
+~ $ gh repo clone Renan2010/RLSnake
+```
 **Enter the 'RLSnake' directory**
 ```bash
 ~ $ cd RLSnake
