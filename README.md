@@ -7,9 +7,9 @@
 ```bash
 ~ $ git clone https://github.com/Renan2010/RLSnake.git
 ```
-**Or using github-cli**
+**Or using 'github-cli'**
 > [!Note]
-**To use github-cli you need to allocate your github account, otherwise it won't work.**
+**To use 'github-cli' you need to allocate your github account, otherwise it won't work.**
 ```bash
 ~ $ gh repo clone Renan2010/RLSnake
 ```
