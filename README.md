@@ -19,13 +19,12 @@
 ```bash
 ~/RLSnake $ ./RLSnake
 ```
+*And enjoy :)*
 # Controls
 
 | Button   | Action   |
 |----------|----------|
 | W,A,S,D  |   Move   |
-
-And enjoy :)
 # FAQ
 **What is `$(nproc)`?**
 
