@@ -22,9 +22,9 @@
 *And enjoy :)*
 # Controls
 
-| Button   | Action   |
-|----------|----------|
-| W,A,S,D  |   Move   |
+|   Button   |  Action     |
+|------------|-------------|
+| W,A,S,D    |   Move      |
 # FAQ
 **What is `$(nproc)`?**
 
