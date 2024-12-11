@@ -21,7 +21,7 @@
 ```
 **And run ninja to compile this game**
 ```bash
-~/RLSnake $ ninja -j $(nproc)
+~/RLSnake $ make
 ```
 **Execute `RLsnake`**
 ```bash
@@ -33,21 +33,3 @@
 |   Button   |  Action     |
 |------------|-------------|
 | W,A,S,D    |   Move      |
-# FAQ
-**What is `$(nproc)`?**
-
-*`$(nproc)` is the total number of cores, plus the threads on your machine/PC, the more cores, the faster the compilation*
-
-**For exanple:**
-
-*My PC is an Intel Core i5-2400 4C/4T*
-```bash
-~ $ nproc
-Output: 4
-```
-*Other example AMD Ryzen 9 9950x 16C/32T* `<- best CPU for multi-core`
-```bash
-~ $ nproc
-Output: 32
-```
-*in short, `$(nproc)` will take the cpu cores "automatically"*
